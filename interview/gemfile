@@ -1,0 +1,13 @@
+source 'http://rubygems.org'
+
+gem 'activesupport'
+gem 'byebug'
+gem 'cucumber'
+gem 'require_all'
+gem 'rspec-expectations'
+gem 'rubocop', '~> 0.57.2'
+gem 'selenium-webdriver'
+gem 'httparty'
+gem 'faker'
+gem 'jwt'
+gem 'rspec'
