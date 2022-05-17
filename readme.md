@@ -1,8 +1,8 @@
-## Prerequisites:
+## Prerequisites: For Mac
 
 ## Ruby and Rvm:
 Stable Ruby with RVM installation:
-	`\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+	\curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 ## set-ruby:
 	Run command: rvm list
@@ -19,7 +19,7 @@ Stable Ruby with RVM installation:
 	Chrome should be updated
 
 ## ChromeDriber:
-`brew cask install chromedriver`
+	brew cask install chromedriver
 
 ## Run Feature:
 	Go inside project folder and run command: cucumber

@@ -2,7 +2,7 @@ class Browser
   attr_reader :driver
 
   def initialize(browser_name)
-    @driver = start_browser(browser_name)
+    driver = start_browser(browser_name)
     maximize_window
   end
 
@@ -13,7 +13,7 @@ class Browser
       options.add_argument('--disable-notifications')
       options.add_argument('--disable-extensions')
       options.add_argument('--headless') if ENV['RUN_BROWSER']
-      Selenium::WebDriver::Chrome::Service.driver_path = File.absolute_path('./chromedriver')
+      Selenium::WebDriver::Chrome::Service.driver_path = File.absolute_path('./chromedriver.exe')
       Selenium::WebDriver.for(:chrome, capabilities: options)
       end
   end

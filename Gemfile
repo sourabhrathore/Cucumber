@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'cucumber', '~> 7.1' #Framework
+gem 'cucumber' #Framework
 gem 'selenium-webdriver' #For UI E2E Automation
 gem 'httparty' #For API Automation
 gem 'byebug' #Debugging Tool
