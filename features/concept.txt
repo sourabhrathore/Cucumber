@@ -1,0 +1,4 @@
+Polymorphism can be achieved by methord overriding or method overloading
+Abstraction can be achieved by hiding the members of the clas by using protacted or public
+Inheritance can be acheved by inherriting the property of any class/module/interface to class
+Encapulation can be achieved by using getter/setter or attr_reader/attr_writer and attr_accessor

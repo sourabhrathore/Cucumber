@@ -1,0 +1,9 @@
+default: --profile pretty --profile html_report --profile rerun --profile quiet_publish
+pretty: --format pretty
+json_report: --format progress --format json --out reports/report.json
+html_report: --format progress --format html --out reports/report.html
+rerun: -f rerun --out rerun.txt
+smoke: -t @smoke
+regression: -t @regression
+publish_report: --publish
+quiet_publish: --publish-quiet

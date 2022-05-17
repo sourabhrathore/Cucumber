@@ -1,0 +1,8 @@
+rm -rf screenshots
+mkdir screenshots
+rm -rf reports
+mkdir reports
+
+-f rerun --out rerun.txt
+@rerun.txt
+rm -rf screenshots
